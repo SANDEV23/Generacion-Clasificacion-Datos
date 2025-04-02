@@ -1,0 +1,10 @@
+CC;91536684;Carlos;Parra
+CC;97700372;Oscar;Blanco
+CC;60189416;Nicolas;Peña
+CC;21981011;Cristian;Leon
+CC;19603798;Nicolas;Jimenez
+CC;43110162;Luisa;Arango
+CC;39167872;Juliana;Hernandez
+CC;76321849;Karen;Fontecha
+CC;49407296;Laura;Lopez
+CC;20405844;Camila;Campiño
