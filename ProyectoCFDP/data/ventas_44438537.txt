@@ -1,0 +1,45 @@
+Nombre: Nicolas Jimenez
+Cédula: 44438537
+MAC BOOK AIR;2
+IPHONE 16 PRO;2
+IPAD PRO;5
+IPAD MINI;1
+IPHONE 15 PRO MAX;2
+IPHONE 12;1
+IPAD PRO;4
+IPHONE 14;5
+IPHONE 15;2
+IPHONE 11 PRO MAX;5
+
+Unidades vendidas de los 19 productos:
+IPHONE 11: 0 unidades
+IPHONE 12: 1 unidades
+IPHONE 13: 0 unidades
+IPHONE 14: 5 unidades
+IPHONE 15: 2 unidades
+IPHONE 16: 0 unidades
+IPHONE 15 PRO: 0 unidades
+IPHONE 15 PRO MAX: 2 unidades
+IPHONE 16 PRO: 2 unidades
+IPHONE 16 PRO MAX: 0 unidades
+IPHONE 11 PRO: 0 unidades
+IPHONE 11 PRO MAX: 5 unidades
+IPHONE 12 PRO: 0 unidades
+IPHONE 12 PRO MAX: 0 unidades
+IMAC: 0 unidades
+MAC BOOK AIR: 2 unidades
+IPAD AIR: 0 unidades
+IPAD MINI: 1 unidades
+IPAD PRO: 9 unidades
+
+Top 10 productos más vendidos:
+IPAD PRO: 9 unidades
+IPHONE 14: 5 unidades
+IPHONE 11 PRO MAX: 5 unidades
+IPHONE 15: 2 unidades
+IPHONE 15 PRO MAX: 2 unidades
+IPHONE 16 PRO: 2 unidades
+MAC BOOK AIR: 2 unidades
+IPHONE 12: 1 unidades
+IPAD MINI: 1 unidades
+IPHONE 11: 0 unidades

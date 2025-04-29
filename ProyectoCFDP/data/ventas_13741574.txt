@@ -1,0 +1,45 @@
+Nombre: Oscar Blanco
+Cédula: 13741574
+P1;1
+P19;5
+P13;2
+P1;5
+P3;2
+P9;2
+P2;3
+P11;3
+P7;4
+P15;3
+
+Unidades vendidas de los 19 productos:
+IPHONE 11: 6 unidades
+IPHONE 12: 3 unidades
+IPHONE 13: 2 unidades
+IPHONE 14: 0 unidades
+IPHONE 15: 0 unidades
+IPHONE 16: 0 unidades
+IPHONE 15 PRO: 4 unidades
+IPHONE 15 PRO MAX: 0 unidades
+IPHONE 16 PRO: 2 unidades
+IPHONE 16 PRO MAX: 0 unidades
+IPHONE 11 PRO: 3 unidades
+IPHONE 11 PRO MAX: 0 unidades
+IPHONE 12 PRO: 2 unidades
+IPHONE 12 PRO MAX: 0 unidades
+IMAC: 3 unidades
+MAC BOOK AIR: 0 unidades
+IPAD AIR: 0 unidades
+IPAD MINI: 0 unidades
+IPAD PRO: 5 unidades
+
+Top 10 productos más vendidos:
+IPHONE 11: 6 unidades
+IPAD PRO: 5 unidades
+IPHONE 15 PRO: 4 unidades
+IPHONE 12: 3 unidades
+IPHONE 11 PRO: 3 unidades
+IMAC: 3 unidades
+IPHONE 13: 2 unidades
+IPHONE 16 PRO: 2 unidades
+IPHONE 12 PRO: 2 unidades
+IPHONE 14: 0 unidades

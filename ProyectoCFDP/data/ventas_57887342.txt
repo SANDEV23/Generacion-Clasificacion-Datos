@@ -1,0 +1,45 @@
+Nombre: Carlos Parra
+Cédula: 57887342
+P3;1
+P4;4
+P15;1
+P12;3
+P16;1
+P19;1
+P8;5
+P13;4
+P12;1
+P15;4
+
+Unidades vendidas de los 19 productos:
+IPHONE 11: 0 unidades
+IPHONE 12: 0 unidades
+IPHONE 13: 1 unidades
+IPHONE 14: 4 unidades
+IPHONE 15: 0 unidades
+IPHONE 16: 0 unidades
+IPHONE 15 PRO: 0 unidades
+IPHONE 15 PRO MAX: 5 unidades
+IPHONE 16 PRO: 0 unidades
+IPHONE 16 PRO MAX: 0 unidades
+IPHONE 11 PRO: 0 unidades
+IPHONE 11 PRO MAX: 4 unidades
+IPHONE 12 PRO: 4 unidades
+IPHONE 12 PRO MAX: 0 unidades
+IMAC: 5 unidades
+MAC BOOK AIR: 1 unidades
+IPAD AIR: 0 unidades
+IPAD MINI: 0 unidades
+IPAD PRO: 1 unidades
+
+Top 10 productos más vendidos:
+IPHONE 15 PRO MAX: 5 unidades
+IMAC: 5 unidades
+IPHONE 14: 4 unidades
+IPHONE 11 PRO MAX: 4 unidades
+IPHONE 12 PRO: 4 unidades
+IPHONE 13: 1 unidades
+MAC BOOK AIR: 1 unidades
+IPAD PRO: 1 unidades
+IPHONE 11: 0 unidades
+IPHONE 12: 0 unidades

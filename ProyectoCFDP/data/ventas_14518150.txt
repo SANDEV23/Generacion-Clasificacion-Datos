@@ -1,0 +1,45 @@
+Nombre: Nicolas Peña
+Cédula: 14518150
+IPHONE 15 PRO;2
+IPHONE 14;5
+IPAD MINI;2
+IPAD PRO;1
+IPHONE 12 PRO;2
+IPHONE 16 PRO MAX;4
+IPHONE 11;3
+IPHONE 14;5
+MAC BOOK AIR;2
+IPHONE 15 PRO;1
+
+Unidades vendidas de los 19 productos:
+IPHONE 11: 3 unidades
+IPHONE 12: 0 unidades
+IPHONE 13: 0 unidades
+IPHONE 14: 10 unidades
+IPHONE 15: 0 unidades
+IPHONE 16: 0 unidades
+IPHONE 15 PRO: 3 unidades
+IPHONE 15 PRO MAX: 0 unidades
+IPHONE 16 PRO: 0 unidades
+IPHONE 16 PRO MAX: 4 unidades
+IPHONE 11 PRO: 0 unidades
+IPHONE 11 PRO MAX: 0 unidades
+IPHONE 12 PRO: 2 unidades
+IPHONE 12 PRO MAX: 0 unidades
+IMAC: 0 unidades
+MAC BOOK AIR: 2 unidades
+IPAD AIR: 0 unidades
+IPAD MINI: 2 unidades
+IPAD PRO: 1 unidades
+
+Top 10 productos más vendidos:
+IPHONE 14: 10 unidades
+IPHONE 16 PRO MAX: 4 unidades
+IPHONE 11: 3 unidades
+IPHONE 15 PRO: 3 unidades
+IPHONE 12 PRO: 2 unidades
+MAC BOOK AIR: 2 unidades
+IPAD MINI: 2 unidades
+IPAD PRO: 1 unidades
+IPHONE 12: 0 unidades
+IPHONE 13: 0 unidades

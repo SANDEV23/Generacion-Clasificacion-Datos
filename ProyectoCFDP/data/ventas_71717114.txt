@@ -1,0 +1,45 @@
+Nombre: Karen Fontecha
+Cédula: 71717114
+P18;5
+P4;1
+P13;2
+P12;5
+P14;3
+P11;3
+P10;2
+P6;1
+P1;5
+P16;1
+
+Unidades vendidas de los 19 productos:
+IPHONE 11: 5 unidades
+IPHONE 12: 0 unidades
+IPHONE 13: 0 unidades
+IPHONE 14: 1 unidades
+IPHONE 15: 0 unidades
+IPHONE 16: 1 unidades
+IPHONE 15 PRO: 0 unidades
+IPHONE 15 PRO MAX: 0 unidades
+IPHONE 16 PRO: 0 unidades
+IPHONE 16 PRO MAX: 2 unidades
+IPHONE 11 PRO: 3 unidades
+IPHONE 11 PRO MAX: 5 unidades
+IPHONE 12 PRO: 2 unidades
+IPHONE 12 PRO MAX: 3 unidades
+IMAC: 0 unidades
+MAC BOOK AIR: 1 unidades
+IPAD AIR: 0 unidades
+IPAD MINI: 5 unidades
+IPAD PRO: 0 unidades
+
+Top 10 productos más vendidos:
+IPHONE 11: 5 unidades
+IPHONE 11 PRO MAX: 5 unidades
+IPAD MINI: 5 unidades
+IPHONE 11 PRO: 3 unidades
+IPHONE 12 PRO MAX: 3 unidades
+IPHONE 16 PRO MAX: 2 unidades
+IPHONE 12 PRO: 2 unidades
+IPHONE 14: 1 unidades
+IPHONE 16: 1 unidades
+MAC BOOK AIR: 1 unidades
