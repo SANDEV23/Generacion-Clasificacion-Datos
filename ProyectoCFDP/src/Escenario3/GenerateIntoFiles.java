@@ -1,6 +1,5 @@
 package Escenario3;
 
-
 import java.io.*;
 import java.util.*;
 
@@ -16,22 +15,44 @@ public class GenerateIntoFiles {
             if (!folder.exists()) folder.mkdir();
 
             createProductsFile(numProductos);
-            createSalesManInfoFile(numVendedores);
 
-            String[] nombresVendedores = {
-                "Carlos Parra", "Oscar Blanco", "Nicolas Peña", "Cristian Leon", "Nicolas Jimenez",
-                "Luisa Arango", "Juliana Hernandez", "Karen Fontecha", "Laura Lopez", "Camila Campiño"
+            // Nombres y apellidos 
+            String[] nombresLista = {
+                "Carlos", "Oscar", "Nicolas", "Cristian", "Nicolas",
+                "Luisa", "Juliana", "Karen", "Laura", "Camila"
             };
-            long[] cedulasVendedores = new long[numVendedores];
+            String[] apellidosLista = {
+                "Parra", "Blanco", "Peña", "Leon", "Jimenez",
+                "Arango", "Hernandez", "Fontecha", "Lopez", "Campiño"
+            };
+
+         
+            BufferedWriter writerVendedores = new BufferedWriter(new FileWriter("data/vendedores.txt"));
             Random rand = new Random();
-            for (int i = 0; i < numVendedores; i++) {
-                cedulasVendedores[i] = 10000000L + rand.nextInt(90000000);
-            }
+
+            List<Long> cedulasVendedores = new ArrayList<>();
 
             for (int i = 0; i < numVendedores; i++) {
-                createSalesMenFile(ventasPorVendedor, nombresVendedores[i], cedulasVendedores[i], numProductos);
+                String tipoDoc = "CC";
+                long id = 10000000L + rand.nextInt(90000000);
+
+              
+                while (cedulasVendedores.contains(id)) {
+                    id = 10000000L + rand.nextInt(90000000);
+                }
+
+                cedulasVendedores.add(id);
+                String nombre = nombresLista[i];
+                String apellido = apellidosLista[i];
+
+                writerVendedores.write(tipoDoc + ";" + id + ";" + nombre + ";" + apellido);
+                writerVendedores.newLine();
+
+               
+                createSalesMenFile(ventasPorVendedor, nombre + " " + apellido, id, numProductos);
             }
 
+            writerVendedores.close();
             System.out.println("Archivos generados exitosamente.");
         } catch (Exception e) {
             System.err.println("Error al generar archivos: " + e.getMessage());
@@ -45,10 +66,10 @@ public class GenerateIntoFiles {
             "IPHONE 11 PRO", "IPHONE 11 PRO MAX", "IPHONE 12 PRO", "IPHONE 12 PRO MAX",
             "IMAC", "MAC BOOK AIR", "IPAD AIR", "IPAD MINI", "IPAD PRO"
         };
-        
+
         double[] preciosCOP = {
             2.876040, 3.287912, 3.699784, 4.111656, 4.523528,
-            4.935400, 5.347272, 5.759144, 6.171016, 0.6582888,
+            4.935400, 5.347272, 5.759144, 6.171016, 6.582888,
             3.078540, 3.480412, 3.882284, 4.284156,
             5.347272, 4.111656, 2.462936, 1.641956, 3.287912
         };
@@ -60,30 +81,6 @@ public class GenerateIntoFiles {
             writer.newLine();
         }
 
-        writer.close();
-    }
-
-    public static void createSalesManInfoFile(int salesmanCount) throws IOException {
-        String[] nombresLista = {
-            "Carlos", "Oscar", "Nicolas", "Cristian", "Nicolas",
-            "Luisa", "Juliana", "Karen", "Laura", "Camila"
-        };
-        String[] apellidosLista = {
-            "Parra", "Blanco", "Peña", "Leon", "Jimenez",
-            "Arango", "Hernandez", "Fontecha", "Lopez", "Campiño"
-        };
-
-        BufferedWriter writer = new BufferedWriter(new FileWriter("data/vendedores.txt"));
-        Random rand = new Random();
-
-        for (int i = 1; i <= salesmanCount; i++) {
-            String tipoDoc = "CC";
-            long id = 10000000L + rand.nextInt(90000000);
-            String nombres = nombresLista[i - 1];
-            String apellidos = apellidosLista[i - 1];
-            writer.write(tipoDoc + ";" + id + ";" + nombres + ";" + apellidos);
-            writer.newLine();
-        }
         writer.close();
     }
 
@@ -148,8 +145,8 @@ public class GenerateIntoFiles {
         String line;
         while ((line = reader.readLine()) != null) {
             String[] parts = line.split(";");
-            int productId = Integer.parseInt(parts[0].substring(1));
-            productosMap.put(productId, parts[1]);
+            int productId = Integer.parseInt(parts[0].substring(1)); // Eliminar 'P' del ID
+            productosMap.put(productId, parts[1]); // Almacenar el nombre del producto
         }
         reader.close();
         return productosMap;
